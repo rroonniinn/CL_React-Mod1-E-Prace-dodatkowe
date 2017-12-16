@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    width:900px;
+    margin:0 auto;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* -------------------------------------------- */
+/* main header */
+/* -------------------------------------------- */
+.page-header-cnt {
+    background: #000;
+}
+
+/* -------------------------------------------- */
+/* main logo */
+/* -------------------------------------------- */
+.main-logo {
+    display: inline-block;
+    vertical-align: top;
+}
+.main-logo img {
+    display: block;
+}
+
+/* -------------------------------------------- */
+/* main nav */
+/* -------------------------------------------- */
+.main-nav {
+    float:right;
+}
+.main-nav li {
+    display: inline-block;
+}
+.main-nav li a {
+    text-decoration: none;
+    color:#fff;
+    line-height: 60px;
+    padding:0 10px;
+}
+.main-nav li a:hover {
+    color:yellow;
+}
+
+/* -------------------------------------------- */
+/* main content */
+/* -------------------------------------------- */
+.main-content {
+    font-size:0;
+    margin:20px 0;
+}
+.main-content .left,
+.main-content .right {
+    vertical-align: top;
+    font-size:1rem;
+    width:50%;
+    display: inline-block;
+}
+.main-content .right {
+    padding:20px;
+}
+.main-content .main-title {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.main-content .main-text {}
+
+/* -------------------------------------------- */
+/*  main-gallery */
+/* -------------------------------------------- */
+.main-gallery {
+    background: #000;
+    padding:20px 0;
+}
+.main-gallery .row {
+    margin-left:-10px;
+    margin-right:-10px;
+}
+.main-gallery .col {
+    width:33.3333%;
+    float:left;
+    padding-left:10px;
+    padding-right:10px;
+}
+.main-gallery .box {
+    height:200px;
+    background: #fff;
+}
+
+/* -------------------------------------------- */
+/* footer */
+/* -------------------------------------------- */
+.main-footer {
+    margin:20px 0;
+}
+.main-footer .copyright {
+    float:left;
+    padding-top:10px;
+}
+.main-footer .footer-logo {
+    float:right;
+}
+.main-footer .footer-logo img {
+    width:100px;
+}
